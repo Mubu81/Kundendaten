@@ -1,4 +1,4 @@
-import requests
+
 from flask import Flask, render_template, request, url_for, redirect, make_response
 from models import db, Kundendaten
 
