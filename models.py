@@ -1,4 +1,3 @@
-#import os
 from sqla_wrapper import SQLAlchemy
 import os
 import psycopg2
