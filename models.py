@@ -5,7 +5,7 @@ import psycopg2
 #db = os.environ['DATABASE_URL']
 
 #db = SQLAlchemy(os.getenv("DATABASE_URL")) # this connects to a database either on Heroku or on localhost
-db = os.environ.get('DATABASE_URL').replace("://", "ql://", 1)
+db = SQLAlchemy(os.environ.get('DATABASE_URL').replace("://", "ql://", 1))
 
 conn = psycopg2.connect(db, sslmode='require')
 
