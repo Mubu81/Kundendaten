@@ -1,4 +1,4 @@
-#!/Users/muratbudak/PycharmProjects/buchhaltung/venv/bin/python
+#!/Users/muratbudak/PycharmProjects/kundendaten/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
