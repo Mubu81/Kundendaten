@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/buchhaltung.iml" filepath="$PROJECT_DIR$/.idea/buchhaltung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../kundendaten/.idea/kundendaten.iml" filepath="$PROJECT_DIR$/../kundendaten/.idea/kundendaten.iml" />
     </modules>
   </component>
 </project>
