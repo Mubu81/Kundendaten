@@ -23,7 +23,7 @@
     </tr>
   </thead>
   <tbody>
-  {% for eintrag in anfragen %}
+  {% for eintrag in anfragen |sort(attribute='id', reverse = True) %}
     <tr>
       <td id={{eintrag["id"]}}>{{eintrag["id"]}}</td>
       <td>{{eintrag["vorname"]}}</td>
